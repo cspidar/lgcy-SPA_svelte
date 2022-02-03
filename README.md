@@ -1,6 +1,10 @@
-# Svelte Encrypted SPA
+# Svelte Encrypted SPA -> Svelte SPA
 
 🔐 Easily create private, encrypted single page applications with Svelte and PageCrypt.
+
+## Delete Encrypted Part
+
+Just for SPA mode for Svelte
 
 ## Technologies used
 
@@ -9,7 +13,7 @@
 -   `tailwindcss` with `jit` mode for simple and efficient styling.
 -   `svelte-pathfinder` for in-memory routing.
 -   `vite-plugin-singlefile` for building a single output HTML file that can be easily encrypted along with all its assets.
--   `pagecrypt` for encrypting the output HTML with strong encryption a password.
+-   `pagecrypt` for encrypting the output HTML with strong encryption a password. //deleted
 -   `prettier` for consistent code formatting.
 
 ## Installation
