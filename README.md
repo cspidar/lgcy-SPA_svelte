@@ -4,9 +4,11 @@
 
 ## Delete Encrypted Part
 
-Just for SPA mode for Svelte
+Just using SPA mode for Svelte.
 
-## Technologies used
+## Below is original document
+
+### Technologies used
 
 -   `svelte` for rapid UI development.
 -   `vite` for modern DX and bundling.
@@ -16,7 +18,7 @@ Just for SPA mode for Svelte
 -   `pagecrypt` for encrypting the output HTML with strong encryption a password. //deleted
 -   `prettier` for consistent code formatting.
 
-## Installation
+### Installation
 
 Make a copy of `.env.example` and rename one of them to `.env`. Then you can use `.env` to change config for the app.
 
@@ -25,15 +27,15 @@ npm install
 npm start
 ```
 
-## Change the password for the built app
+### Change the password for the built app
 
 By default, a new password is generated for each build which will be logged to the console. If you want to set a specific password, you can do so by using the `PASSWORD` variable in `.env`.
 
-## Generating a Magic Link for Easy Access
+### Generating a Magic Link for Easy Access
 
 If you set `DEPLOYMENT_URL` in `.env` and run `npm run build`, a magic link will be printed to the console that allows users to open the app with a single click once it has been deployed. This allows a really smooth UX for your users.
 
-## Static assets in the `/public` directory
+### Static assets in the `/public` directory
 
 By default, the static assets in the `/public` directory will not be encrypted, so make sure to find a good solution for your use case.
 
@@ -43,16 +45,16 @@ For additional security considerations, refer to the [pagecrypt docs](https://gi
 
 ---
 
-## Scripts
+### Scripts
 
-### Start a development server
+#### Start a development server
 
 `npm start`
 
-### Build the application and create the encrypted build
+#### Build the application and create the encrypted build
 
 `npm run build`
 
-### Serve the application
+#### Serve the application
 
 `npm run serve`
